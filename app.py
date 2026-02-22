@@ -270,14 +270,14 @@ st.markdown(
       }}
 
       .block-container {{
-        padding-top: 1.2rem;
+        padding-top: 2.6rem;
         padding-bottom: 2.2rem;
         max-width: 1100px;
       }}
 
       h1 {{
         font-size: 1.6rem;
-        margin-bottom: 0.15rem;
+        margin-bottom: 0.4rem;
         letter-spacing: -0.02em;
       }}
 
