@@ -370,8 +370,7 @@ ensure_files()
 settings = load_json(SETTINGS_PATH)
 plans = load_json(PLANS_PATH)
 
-use_demo = st.sidebar.toggle("샘플 날짜", value=True)
-today_str = "2026-02-22" if use_demo else str(date.today())
+today_str = str(date.today())
 yesterday_str = str(datetime.strptime(today_str, "%Y-%m-%d").date() - timedelta(days=1))
 tomorrow_str = str(datetime.strptime(today_str, "%Y-%m-%d").date() + timedelta(days=1))
 
